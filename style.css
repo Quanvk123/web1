@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.item{
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgba(226, 222, 222, 0.116);
+    box-shadow:  0 0.5px 2px 0.05px  #a2c3e6;
+}
+
+.thoat{
+    width: 100%;
+    height: 30px;
+    background: rgb(15,144,243);
+    display: flex;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0.5px 1px rgb(143, 142, 142);
+}
+
+.thoat h2{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.thoat i {
+    padding: 0 10px;
+}
+
+.thoat1{
+    width: 100%;
+    height: 30px;
+    background-color: #aaa6a149;
+    font-size: 13px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5px;
+    opacity: 0.6;
+    color: rgb(14, 15, 14);
+}
+.dangnhap{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 5px;
+}
+.login{
+    width: 90%;
+    height: 28px;
+    margin-bottom: 5px;
+    outline: none;
+    border: initial;
+    background: none;
+    position: relative;
+    border-bottom: 1px solid rgba(204, 197, 197, 0.541);
+    font-size: 14px;
+    padding-left: 2px;
+    /* border: initial; để ẩn vạch ở input khi sử dụng border-bottom 
+    nếu sử dụng boder: none sẽ không sử dụng được border-bottom */
+}
+
+.dangnhap input{
+    color: #0674E7;
+}
+
+.dangnhap input:hover{
+    border-bottom: 1.9px solid #85b8e2;
+}
+
+@media (max-width:330px) {
+    .thoat1{
+        font-size: 11.9px;
+    }
+}
